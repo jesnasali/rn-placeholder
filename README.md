@@ -1,12 +1,12 @@
-**This project is looking for motivated maintainers, see [this issue](https://github.com/mfrachet/rn-placeholder/issues/179) for more information.**
+**This project is looking for motivated maintainers, see [this issue](https://github.com/mfrachet/rn-placeholder-v1/issues/179) for more information.**
 
-[![Build Status](https://travis-ci.org/mfrachet/rn-placeholder.svg?branch=master)](https://travis-ci.org/mfrachet/rn-placeholder)
+[![Build Status](https://travis-ci.org/mfrachet/rn-placeholder-v1.svg?branch=master)](https://travis-ci.org/mfrachet/rn-placeholder-v1)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Display some placeholder stuff before rendering your text or media content in React Native. Compatible with [Expo](https://expo.io/) and [react-native-web](https://github.com/necolas/react-native-web).
 
 - [Snack application **with copy to clipboard!**](https://snack.expo.io/@mfrachet/84bb31)
-- [Usage with react-native-web](https://mfrachet.github.io/rn-placeholder)
+- [Usage with react-native-web](https://mfrachet.github.io/rn-placeholder-v1)
 - [The N Props syndrome (post)](https://mfrachet.github.io/the-n-props-syndrome): explaining the transition between v2 and v3
 
 ---
@@ -18,7 +18,7 @@ Display some placeholder stuff before rendering your text or media content in Re
 ## Installation
 
 ```javascript
-$ yarn add rn-placeholder
+$ yarn add rn-placeholder-v1
 ```
 
 ## In your code
@@ -29,7 +29,7 @@ import {
   PlaceholderMedia,
   PlaceholderLine,
   Fade
-} from "rn-placeholder";
+} from "rn-placeholder-v1";
 
 const App = () => (
   <Placeholder
@@ -58,8 +58,8 @@ _You can modify any call of `yarn` by `npm install`_
 ### To start the mobile app:
 
 ```sh
-$ git clone https://github.com/mfrachet/rn-placeholder
-$ cd rn-placeholder
+$ git clone https://github.com/jesnasali/rn-placeholder-v1
+$ cd rn-placeholder-v1
 $ yarn
 $ cd ./example && yarn && yarn start
 ```
@@ -67,13 +67,13 @@ $ cd ./example && yarn && yarn start
 ### To start the web app:
 
 ```sh
-$ git clone https://github.com/mfrachet/rn-placeholder
-$ cd rn-placeholder
+$ git clone https://github.com/jesnasali/rn-placeholder-v1
+$ cd rn-placeholder-v1
 $ yarn
 $ cd ./example-web && yarn && yarn start
 ```
 
-The web app is also available in this github pages: https://mfrachet.github.com/rn-placeholder.
+The web app is also available in this github pages: https://jesnasali.github.com/rn-placeholder-v1.
 
 ## V3 features
 
